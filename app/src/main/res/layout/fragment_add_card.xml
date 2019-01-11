@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.pay.todayorpay.design.CustomTextView
+            android:id="@+id/txt_steps"
+            android:text="3/4"
+            android:textColor="#AFC1CD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.pay.todayorpay.design.CustomTextView
+            android:text="@string/add_card"
+            android:layout_marginLeft="10dp"
+            android:textColor="#AFC1CD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:textSize="30dp"
+        android:background="@drawable/dark_background"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.pay.todayorpay.design.CustomEditText
+            android:id="@+id/edit_card_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:maxLength="19"
+            android:imeOptions="actionNext"
+            android:paddingRight="10dp"
+            android:textColorHint="#939FAE"
+            android:background="@drawable/dark_background"
+            android:hint="@string/type_card_number"
+            />
+        <com.pay.todayorpay.design.CustomEditText
+            android:id="@+id/edit_card_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColorHint="#939FAE"
+            android:background="@drawable/dark_background"
+            android:hint="@string/type_card_holder"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.pay.todayorpay.design.CustomEditText
+                android:id="@+id/edit_expire_date"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColorHint="#939FAE"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="5"
+                android:background="@drawable/dark_background"
+                android:hint="@string/expire_date"
+                />
+
+            <com.pay.todayorpay.design.CustomEditText
+                android:id="@+id/edit_cvv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/dark_background"
+                android:hint="@string/cvv"
+                android:imeOptions="actionNext"
+                android:maxLength="3"
+                android:inputType="textPassword|number"
+                android:paddingLeft="10dp"
+                android:paddingTop="20dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="20dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#939FAE" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:gravity="bottom|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/confirm_button"
+            android:gravity="center_horizontal"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="20dp"
+            android:text="next"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+
+</LinearLayout>

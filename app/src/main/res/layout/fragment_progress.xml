@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.pay.todayorpay.design.CustomTextView
+            android:text="@string/my_goal_for_the_day"
+            android:textColor="@color/colorLightWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+   <com.pay.todayorpay.design.CustomTextView
+       android:text="No Smoking today"
+       android:textSize="25dp"
+       android:gravity="center"
+       android:textColor="@color/colorWhite"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:gravity="bottom|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.pay.todayorpay.design.CustomTextView
+            android:id="@+id/btn_completed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/confirm_button"
+            android:gravity="center_horizontal"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="20dp"
+            android:text="@string/completed"
+            android:drawableLeft="@drawable/ic_menu_camera"
+
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF" />
+
+        <com.pay.todayorpay.design.CustomTextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn_failed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/add_new_card"
+            android:gravity="center_horizontal"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="20dp"
+            android:text="@string/failed"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

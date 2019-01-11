@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="type_goal">Type your goal here...</string>
+    <string name="enter_goal_day">Enter your goal for the day</string>
+    <string name="select_charity">Select charity you will donate to if you don\'t complete your goal</string>
+    <string name="enter_amount_money">Enter amount of money</string>
+    <string name="add_card">Add card</string>
+    <string name="type_card_number">Type your card\'s number</string>
+    <string name="type_card_holder">Type cardholder\'s name</string>
+    <string name="expire_date">Expire date</string>
+    <string name="cvv">CVV</string>
+    <string name="confirm_goal">Confirm your goal for the day</string>
+    <string name="submit_goal">Submit goal</string>
+    <string name="terms">I agree to all <u>Terms Conditions</u>.</string>
+    <string name="well_done">Well done!</string>
+    <string name="goal_success_message">Your goal has been  successfully completed!</string>
+    <string name="goal_request_message">Since you\'re doing so well today. maybe you\'d like to send the donation anyway?</string>
+    <string name="next">Next</string>
+    <string name="donate">Yes, I\'d like to donate</string>
+    <string name="no_this_time">NAH, Not this time</string>
+    <string name="oh">Ohhh...</string>
+    <string name="goal_failed_notice">If you mark the goal as failed your card will be charged</string>
+    <string name="goal_failed_confirm">Are you sure you want it?</string>
+    <string name="charge_card">Yes, Charge my card</string>
+    <string name="not_charge_card">No, Don\'t charge</string>
+    <string name="add_new_card">Add new card</string>
+    <string name="select_card">Select your card</string>
+    <string name="my_goal_for_the_day">My goal for the day</string>
+    <string name="completed">Completed</string>
+    <string name="failed">Failed</string>
+
+
+    <string-array name="accordion_sections">
+        <item>Section A</item>
+        <item>Section B</item>
+        <item>Section C</item>
+        <item>Section D</item>
+        <item>Section E</item>
+    </string-array>
+
+    <integer-array name="accordion_visibility">
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+</resources>

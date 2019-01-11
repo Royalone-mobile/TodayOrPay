@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.pay.todayorpay.design.CustomTextView
+            android:text="@string/confirm_goal"
+            android:textColor="@color/colorLightWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+   <com.pay.todayorpay.design.CustomTextView
+       android:text="No Smoking today"
+       android:textSize="25dp"
+       android:textColor="@color/colorWhite"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+    <com.pay.todayorpay.design.CustomTextView
+        android:text="if I don't complete the goal I will donate to"
+        android:textSize="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.pay.todayorpay.design.CustomTextView
+        android:text="The Athlone Trust"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.pay.todayorpay.design.CustomTextView
+        android:text="150$"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.pay.todayorpay.design.CustomTextView
+        android:text="from card"
+        android:textSize="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/ic_menu_share"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <com.pay.todayorpay.design.CustomTextView
+            android:text="....7253"
+            android:textColor="@color/colorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <net.igenius.customcheckbox.CustomCheckBox
+            android:layout_marginTop="20dp"
+            android:id="@+id/chk_accept_terms"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="top"
+            app:color_checked="#2A5071"
+            app:color_tick="#7C92A6"
+            app:color_unchecked="#2A5071"
+            app:color_unchecked_stroke="#2A5071"
+            app:duration="30"
+            app:stroke_width="1dp" />
+
+        <com.pay.todayorpay.design.CustomTextView
+            android:id="@+id/txt_terms"
+            android:text="@string/terms"
+            android:textSize="12dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorLightWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:gravity="bottom|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.pay.todayorpay.design.CustomTextView
+            android:id="@+id/btn_submit_goal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/confirm_button"
+            android:gravity="center_horizontal"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="20dp"
+            android:text="@string/submit_goal"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+
+</LinearLayout>

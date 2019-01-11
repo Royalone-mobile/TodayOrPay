@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:src="@drawable/ic_menu_slideshow"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <com.pay.todayorpay.design.CustomTextView
+            android:textSize="30dp"
+            android:text="@string/well_done"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.pay.todayorpay.design.CustomTextView
+            android:textSize="15dp"
+            android:gravity="center"
+            android:text="@string/goal_success_message"
+            android:textColor="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:lines="2"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_weight="1"
+        android:background="#1C2C4C"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.pay.todayorpay.design.CustomTextView
+            android:textSize="15dp"
+            android:gravity="center"
+            android:text="@string/goal_request_message"
+            android:textColor="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:lines="2"
+            android:layout_height="wrap_content" />
+
+        <com.pay.todayorpay.design.CustomTextView
+            android:id="@+id/btn_yes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/confirm_button"
+            android:gravity="center_horizontal"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/donate"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF" />
+
+        <com.pay.todayorpay.design.CustomTextView
+            android:id="@+id/btn_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/no_button"
+            android:gravity="center_horizontal"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/no_this_time"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>

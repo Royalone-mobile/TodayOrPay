@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <declare-styleable name="accordion">
+        <attr name="header_layout_id" format="reference" />
+        <attr name="header_layout_fold_button_id" format="reference" />
+        <attr name="header_layout_label_id" format="reference" />
+        <attr name="custom_font" format="string" />
+        <attr name="section_headers" format="reference" />
+        <attr name="section_container" format="reference" />
+        <attr name="section_container_parent" format="reference" />
+        <attr name="section_bottom" format="reference" />
+        <attr name="section_visibility" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="image_labeled_button">
+        <attr name="icon_resource" format="reference" />
+        <attr name="icon_label" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="toggle_image_labeled_button">
+        <attr name="icon_resource_off" format="reference" />
+    </declare-styleable>
+
+</resources>
